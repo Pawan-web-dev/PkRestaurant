@@ -35,9 +35,8 @@ const Hero: React.FC<HeroProps> = ({
             {subtitle}
           </p>
         )}
-
         {showCTA && (
-          <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-x-4 animate-fade-in-up animation-delay-400">
             <button className="bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transform hover:scale-105 transition-all duration-200">
               View Menu
             </button>
