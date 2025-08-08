@@ -36,11 +36,11 @@ const Hero: React.FC<HeroProps> = ({
           </p>
         )}
         {showCTA && (
-          <div className="space-x-4 animate-fade-in-up animation-delay-400">
+          <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <button className="bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transform hover:scale-105 transition-all duration-200">
               View Menu
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-200">
+            <button className="border-2 mt-4 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-200">
               Make Reservation
             </button>
           </div>
