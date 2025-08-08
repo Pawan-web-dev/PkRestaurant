@@ -1,4 +1,4 @@
-limport React from 'react';
+import React from 'react';
 
 interface HeroProps {
   title: string;
